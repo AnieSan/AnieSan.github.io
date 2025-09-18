@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "游戏策划文章"
+title: 游戏
 ---
 
 <h1>游戏策划目录</h1>
