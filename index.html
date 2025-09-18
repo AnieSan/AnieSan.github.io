@@ -2,19 +2,11 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <!-- 缩小标题字体，去掉链接 -->
-      <h2 class="post-title">{{ post.title }}</h2>
+<h1>欢迎来到我的博客</h1>
+<p>这里是我的技术学习和游戏策划记录。</p>
 
-      <!-- 摘要 / excerpt -->
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <!-- 只通过“阅读全文”按钮进入文章 -->
-      <a href="{{ post.url | relative_url }}" class="read-more">阅读全文</a>
-    </article>
-  {% endfor %}
-</div>
+<h2>文章分类：</h2>
+<ul>
+  <li><a href="{{ '/articles' | relative_url }}">Games</a></li>
+  <li><a href="{{ '/games' | relative_url }}">Courses</a></li>
+</ul>
