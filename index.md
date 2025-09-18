@@ -7,5 +7,5 @@ layout: default
 
 <h2>文章：</h2>
 <ul>
-  <li><a href="{{ '/Games/' | relative_url }}">Games</a></li>
+  <a href="/Games/">Games</a>
 </ul>
