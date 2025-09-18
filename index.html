@@ -5,7 +5,16 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <!-- 缩小标题字体，去掉链接 -->
+      <h2 class="post-title">{{ post.title }}</h2>
+
+      <!-- 摘要 / excerpt -->
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <!-- 只通过“阅读全文”按钮进入文章 -->
+      <a href="{{ post.url | relative_url }}" class="read-more">阅读全文</a>
     </article>
   {% endfor %}
 </div>
