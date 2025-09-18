@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Games
 ---
 
-<h1>Games</h1>
-<p>这里存放与游戏相关的文章。</p>
+<h1>欢迎来到我的博客</h1>
+<p>这里是我的技术学习和游戏策划记录。</p>
 
+<h2>文章：</h2>
 <ul>
-  <li><a href="{{ '/Games/article1/' | relative_url }}">示例文章1</a></li>
-  <li><a href="{{ '/Games/article2/' | relative_url }}">示例文章2</a></li>
+  <li><a href="{{ '/Games/' | relative_url }}">Games</a></li>
+  <!--<li><a href="{{ '/Courses/' | relative_url }}">Courses</a></li>-->
 </ul>
