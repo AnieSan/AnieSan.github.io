@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 游戏策划目录
+title: 游戏设计运营学习
 ---
 
-<h1>游戏策划目录</h1>
+<h1>游戏设计运营学习</h1>
 
 <ul>
 {% for post in site.Games %}
