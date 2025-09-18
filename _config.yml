@@ -15,6 +15,13 @@ avatar: https://pic4.zhimg.com/v2-3e65b35673b824aff8197d9ce3fed0ed_r.jpg
 # Flags below are optional
 #
 
+collections:
+  article: 游戏设计
+    output: true   # 生成独立页面
+  article: 课程
+    output: true 
+
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
