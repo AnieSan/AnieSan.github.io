@@ -8,9 +8,7 @@ title: 游戏文章
 这里是我写的游戏策划相关内容：
 
 <ul>
-  {% for post in site.Games %}
-    {% if post.url contains '/Games/' %}
-      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% endif %}
+  {% for game in site.Games %}
+    <li><a href="{{ game.url | relative_url }}">{{ game.title }}</a></li>
   {% endfor %}
 </ul>
