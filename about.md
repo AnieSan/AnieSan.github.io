@@ -4,8 +4,5 @@ title: About
 permalink: /about/
 ---
 
-本科：中山大学
+权当作极为主观的个人意见输出，无需当真。
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
