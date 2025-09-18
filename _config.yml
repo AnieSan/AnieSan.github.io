@@ -16,7 +16,7 @@ avatar: https://pic4.zhimg.com/v2-3e65b35673b824aff8197d9ce3fed0ed_r.jpg
 #
 
 collections:
-  article:
+  article: Games
     output: true   # 生成独立页面
 
 # Includes an icon in the footer for each username you enter
