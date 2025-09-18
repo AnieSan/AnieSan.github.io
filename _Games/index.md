@@ -7,4 +7,10 @@ title: 游戏文章
 
 这里是我写的游戏策划相关内容：
 
-- [游戏充值系统简评](2026-9-10-游戏充值系统简评.md)
+<ul>
+  {% for post in site.posts %}
+    {% if post.url contains '/Games/' %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
