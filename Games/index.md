@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 游戏设计运营学习
+title: "游戏策划文章"
 ---
+
 <h1>{{ page.title }}</h1>
 
 <ul>
