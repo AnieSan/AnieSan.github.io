@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
 title: 游戏文章
 ---
 
-# 游戏文章
 
 这里是我写的游戏策划相关内容：
 
