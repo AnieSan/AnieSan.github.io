@@ -12,3 +12,4 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+<p><a href="{{ "/Games/" | relative_url }}">进入游戏策划目录</a></p>
