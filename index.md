@@ -12,4 +12,3 @@ layout: default
     </li>
   {% endfor %}
 </ul>
- <!--<p><a href="{{ "/Games/" | relative_url }}">目录</a></p>-->
